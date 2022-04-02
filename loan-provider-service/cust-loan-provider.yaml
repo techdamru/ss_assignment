@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-k8s-customer-loan-provider-deployment
+spec:
+  selector:
+    matchLabels:
+      app: docker-k8s-customer-loan-provider
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: docker-k8s-customer-loan-provider
+    spec:
+     containers:
+     - name: docker-k8s-customer-loan-provider
+       image: techdamru/customer-loan-provider
+       ports:
+       - containerPort: 9070     

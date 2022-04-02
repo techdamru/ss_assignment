@@ -1,0 +1,8 @@
+com\bits\learn\ss\controller\CustomerLoanController.class
+com\bits\learn\ss\model\CustomerLoan.class
+com\bits\learn\ss\LoanProviderServiceApplication.class
+com\bits\learn\ss\model\Customer.class
+com\bits\learn\ss\model\Loan.class
+com\bits\learn\ss\service\impl\CustomerLoanServiceImpl.class
+com\bits\learn\ss\service\CustomerLoanService.class
+com\bits\learn\ss\model\CustomerLoanDetails.class
